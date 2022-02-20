@@ -9,7 +9,7 @@ const btn = document.querySelector(`input[type="submit"]`);
 
 btn.addEventListener("click", (e) => {
     e.preventDefault()
-    if (input_user.value = "sazu" && input_pass.value = "1234"){
+    if (input_user.value === "sazu" && input_pass.value === "1234"){
         alert("Successful")
     }
 })
