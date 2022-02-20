@@ -11,5 +11,7 @@ btn.addEventListener("click", (e) => {
     e.preventDefault()
     if (input_user.value === "sazu" && input_pass.value === "1234"){
         alert("Successful")
-    }
+    }else(
+        alert("Failed")
+    )
 })
